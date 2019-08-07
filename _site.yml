@@ -5,35 +5,35 @@ description: |
 output_dir: "docs"
 navbar:
   left:
-    - text: "Externalities"
-      href: externalities.html
+    - text: "Climate"
+      href: climate.html
       menu:
         - text: "Acidification"
-          href: ex_acidification.html      
+          href: c_acidification.html      
         - text: "Sea Level Rise"
-          href: ex_slr.html      
+          href: c_slr.html      
         - text: "Storms"
-          href: ex_storms.html      
+          href: c_storms.html      
         - text: "Temperature"
-          href: ex_temperature.html      
+          href: c_temperature.html      
     - text: "People"
       href: people.html
       menu:
         - text: "Fishing"
-          href: pe_fishing.html      
+          href: p_fishing.html      
         - text: "Land Use"
-          href: pe_landuse.html      
+          href: p_landuse.html      
         - text: "Wastewater"
-          href: pe_wastewater.html      
+          href: p_wastewater.html      
     - text: "Nature"
       href: nature.html
       menu:
         - text: "Protected Areas"
-          href: na_mpa.html      
+          href: n_mpa.html      
         - text: "Habitats"
-          href: na_habitats.html      
+          href: n_habitats.html      
         - text: "Species"
-          href: na_species.html      
+          href: n_species.html      
   right:
     - text: "About"
       href: about.html

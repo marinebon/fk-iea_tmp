@@ -11,7 +11,7 @@ The menu is very easy to update in the [_site.yml]( https://github.com/marinebon
 
 For example:
 
-- [Externalities](./externalities.html): see infographic modal popup by clicking on temperature
+- [Climate](./climate.html): see infographic modal popup by clicking on temperature
 
 - Nature > [Protected Areas](na_mpa.html): note use of [full screen layout](https://rstudio.github.io/distill/figures.html#full-screen-layout) for grouper density inside vs outside MPAs
 
