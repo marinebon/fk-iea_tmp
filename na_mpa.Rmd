@@ -1,6 +1,5 @@
 ---
-title: "MPAs"
-output: html_document
+title: "Marine Protected Areas"
 ---
 
 ```{r setup, include=FALSE}

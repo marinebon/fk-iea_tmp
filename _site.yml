@@ -4,9 +4,37 @@ description: |
   FK IEA
 output_dir: "docs"
 navbar:
+  left:
+    - text: "Externalities"
+      href: externalities.html
+      menu:
+        - text: "Acidification"
+          href: ex_acidification.html      
+        - text: "Sea Level Rise"
+          href: ex_slr.html      
+        - text: "Storms"
+          href: ex_storms.html      
+        - text: "Temperature"
+          href: ex_temperature.html      
+    - text: "People"
+      href: people.html
+      menu:
+        - text: "Fishing"
+          href: pe_fishing.html      
+        - text: "Land Use"
+          href: pe_landuse.html      
+        - text: "Wastewater"
+          href: pe_wastewater.html      
+    - text: "Nature"
+      href: nature.html
+      menu:
+        - text: "Protected Areas"
+          href: na_mpa.html      
+        - text: "Habitats"
+          href: na_habitats.html      
+        - text: "Species"
+          href: na_species.html      
   right:
-    - text: "Home"
-      href: index.html
     - text: "About"
       href: about.html
 output: distill::distill_article

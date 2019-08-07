@@ -15,19 +15,11 @@ Suggests:
 VignetteBuilder: knitr
 URL: https://github.com/marinebon/infographiq
 BugReports: https://github.com/marinebon/infographiq/issues
-RemoteType: github
-RemoteHost: api.github.com
-RemoteRepo: infographiq
-RemoteUsername: marinebon
-RemoteRef: master
-RemoteSha: eef1f55fe64731a667ce48c14207d50be2f782a6
-GithubRepo: infographiq
-GithubUsername: marinebon
-GithubRef: master
-GithubSHA1: eef1f55fe64731a667ce48c14207d50be2f782a6
+RemoteType: local
+RemoteUrl: /Users/bbest/github/infographiq
 NeedsCompilation: no
-Packaged: 2019-07-24 20:32:26 UTC; bbest
+Packaged: 2019-08-07 20:26:07 UTC; bbest
 Author: Ben Best [aut, cre],
   Tylar Murray [aut]
 Maintainer: Ben Best <ben@ecoquants.com>
-Built: R 3.5.2; ; 2019-07-24 20:32:27 UTC; unix
+Built: R 3.5.2; ; 2019-08-07 20:26:08 UTC; unix

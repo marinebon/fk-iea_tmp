@@ -21,27 +21,27 @@
   <!--radix_placeholder_meta_tags-->
   <title>FK IEA</title>
   
-  <meta property="description" itemprop="description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="description" itemprop="description" content="Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)"/>
   
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="FK IEA"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="og:description" content="Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="FK IEA"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
   <meta property="twitter:title" content="FK IEA"/>
-  <meta property="twitter:description" content="Welcome to the website. I hope you enjoy it!"/>
+  <meta property="twitter:description" content="Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)"/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["FK IEA"]},{"type":"character","attributes":{},"value":["Welcome to the website. I hope you enjoy it!\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["FK IEA"]},{"type":"character","attributes":{},"value":["Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1272,7 +1272,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"FK IEA","description":"Welcome to the website. I hope you enjoy it!","authors":[]}
+{"title":"FK IEA","description":"Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1281,21 +1281,45 @@
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
 <a href="index.html" class="title">FK IEA</a>
-<a href="externalities.html">Externalities</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-Marine Life
+Externalities
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="life_mpa.html">Marine Protected Areas</a>
-<a href="life_benthic.html">Benthic Community</a>
+<a href="ex_acidification.html">Acidification</a>
+<a href="ex_slr.html">Sea Level Rise</a>
+<a href="ex_storms.html">Storms</a>
+<a href="ex_temperature.html">Temperature</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+People
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="pe_fishing.html">Fishing</a>
+<a href="pe_landuse.html">Land Use</a>
+<a href="pe_wastewater.html">Wastewater</a>
+</div>
+</div>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+Nature
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="na_mpa.html">Protected Areas</a>
+<a href="na_habitats.html">Habitats</a>
+<a href="na_species.html">Species</a>
 </div>
 </div>
 </div>
 <div class="nav-right">
-<a href="index.html">Home</a>
 <a href="about.html">About</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -1307,13 +1331,17 @@ Marine Life
 
 <div class="d-title">
 <h1>FK IEA</h1>
-<p>Welcome to the website. I hope you enjoy it!</p>
+<p>Welcome to the Florida Keys Integrated Ecosystem Assessment (IEA)</p>
 </div>
 
 
 <div class="d-article">
+<p>This site is a temporary demonstration of using <a href="https://rstudio.github.io/distill/">Distill for R Markdown</a> to generate the website and embed figures, infographics, etc.</p>
+<p>The menu is very easy to update in the <a href="https://github.com/marinebon/fk-iea_tmp/blob/master/_site.yml">_site.yml</a>.</p>
+<p>For example:</p>
 <ul>
-<li><a href="./externalities.html">Externalities</a></li>
+<li><p><a href="./externalities.html">Externalities</a>: see infographic modal popup by clicking on temperature</p></li>
+<li><p>Nature &gt; <a href="na_mpa.html">Protected Areas</a>: note use of <a href="https://rstudio.github.io/distill/figures.html#full-screen-layout">full screen layout</a> for grouper density inside vs outside MPAs</p></li>
 </ul>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
