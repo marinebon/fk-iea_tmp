@@ -1,0 +1,33 @@
+Package: infographiq
+Title: Create interactive infographics for data-driven storytelling
+Version: 0.1.1
+Authors@R: c(person("Ben", "Best", email = "ben@ecoquants.com", role = c("aut", "cre")),
+             person("Tylar", "Murray", email = "tylarmurray@mail.usf.edu", role = c("aut")))
+Description: "Given a scalable vector graphic (*.svg) illustration, link elements, possibly with a modal popup."
+Depends: R (>= 3.4.0)
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: tidyverse, brew, knitr, rmarkdown, tools, servr, dygraphs,
+        lubridate, stringr, xts, futile.logger, bsplus, htmltools, r2d3
+Suggests:
+VignetteBuilder: knitr
+URL: https://github.com/marinebon/infographiq
+BugReports: https://github.com/marinebon/infographiq/issues
+RemoteType: github
+RemoteHost: api.github.com
+RemoteRepo: infographiq
+RemoteUsername: marinebon
+RemoteRef: master
+RemoteSha: eef1f55fe64731a667ce48c14207d50be2f782a6
+GithubRepo: infographiq
+GithubUsername: marinebon
+GithubRef: master
+GithubSHA1: eef1f55fe64731a667ce48c14207d50be2f782a6
+NeedsCompilation: no
+Packaged: 2019-07-24 20:32:26 UTC; bbest
+Author: Ben Best [aut, cre],
+  Tylar Murray [aut]
+Maintainer: Ben Best <ben@ecoquants.com>
+Built: R 3.5.2; ; 2019-07-24 20:32:27 UTC; unix
