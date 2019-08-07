@@ -6,8 +6,10 @@ output_dir: "docs"
 navbar:
   left:
     - text: "Climate"
-      href: climate.html
       menu:
+        - text: "Climate"
+          href: climate.html
+        - text: "---------"      
         - text: "Acidification"
           href: c_acidification.html      
         - text: "Sea Level Rise"
@@ -17,8 +19,10 @@ navbar:
         - text: "Temperature"
           href: c_temperature.html      
     - text: "People"
-      href: people.html
       menu:
+        - text: "People"
+          href: people.html
+        - text: "---------"
         - text: "Fishing"
           href: p_fishing.html      
         - text: "Land Use"
@@ -26,8 +30,10 @@ navbar:
         - text: "Wastewater"
           href: p_wastewater.html      
     - text: "Nature"
-      href: nature.html
       menu:
+        - text: "Nature"
+          href: nature.html
+        - text: "---------"
         - text: "Protected Areas"
           href: n_mpa.html      
         - text: "Habitats"
