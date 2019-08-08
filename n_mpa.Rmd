@@ -5,6 +5,8 @@ output:
     toc: true
     toc_depth: 3
     toc_float: true
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -63,58 +65,40 @@ See Also:
 
 ## By Species
 
-### Black Grouper
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Black_Grouper", "Black Grouper Density")
 ```
-
-### Goliath Grouper
 
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Goliath_Grouper", "Goliath Grouper Density")
 ```
 
-### Graysby
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Graysby", "Graysby Density")
 ```
-
-### Grey Snapper
 
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Grey_Snapper", " Density")
 ```
 
-### Hogfish
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Hogfish", "Hogfish Density")
 ```
-
-### Mutton Snapper
 
 ```{r, layout="l-screen-inset", fig.height=2.5}
 rvc_plot(d, "Mutton_Snapper", "Mutton Snapper Density")
 ```
 
-### Nassau Grouper Density
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
-rvc_plot(d, "Nassau_Grouper", " Density")
+rvc_plot(d, "Nassau_Grouper", "Nassau Grouper Density")
 ```
 
-### Red Grouper Density
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
-rvc_plot(d, "Red_Grouper", " Density")
+rvc_plot(d, "Red_Grouper", "Red Grouper Density")
 ```
 
-### Yellowtail Snapper
-
 ```{r, layout="l-screen-inset", fig.height=2.5}
-rvc_plot(d, "Yellowtail_Snapper", " Density")
+rvc_plot(d, "Yellowtail_Snapper", "Yellowtail Snapper Density")
 ```
 
 
