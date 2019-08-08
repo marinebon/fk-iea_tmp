@@ -13,17 +13,6 @@ For example:
 
 - [Climate](./climate.html): see infographic modal popup by clicking on temperature
 
-- Nature > [Protected Areas](na_mpa.html): note use of [full screen layout](https://rstudio.github.io/distill/figures.html#full-screen-layout) for grouper density inside vs outside MPAs
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
+- Nature > [Protected Areas](n_mpa.html): note use of [full screen layout](https://rstudio.github.io/distill/figures.html#full-screen-layout) for grouper density inside vs outside MPAs
 
 
