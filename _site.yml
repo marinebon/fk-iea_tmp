@@ -1,11 +1,13 @@
-name: "distill"
+name: "FK IEA"
 title: "FK IEA"
-description: |
-  FK IEA
 output_dir: "docs"
 navbar:
   left:
+    - text: " FK IEA"
+      icon: fa-home
+      href: index.html
     - text: "Climate"
+      icon: fa-bolt
       menu:
         - text: "Climate"
           href: climate.html
@@ -19,6 +21,7 @@ navbar:
         - text: "Temperature"
           href: c_temperature.html      
     - text: "People"
+      icon: fa-users
       menu:
         - text: "People"
           href: people.html
@@ -30,6 +33,7 @@ navbar:
         - text: "Wastewater"
           href: p_wastewater.html      
     - text: "Nature"
+      icon: fa-leaf
       menu:
         - text: "Nature"
           href: nature.html
@@ -40,7 +44,19 @@ navbar:
           href: n_habitats.html      
         - text: "Species"
           href: n_species.html      
-  right:
-    - text: "About"
-      href: about.html
-output: distill::distill_article
+  #right:
+  #  - text: "About"
+  #    href: about.html
+output:
+  #distill::distill_article:
+  html_document:
+    theme: darkly # https://bootswatch.com
+    highlight: textmate
+    toc: true
+    toc_depth: 3
+    toc_float: true
+
+#output:
+#  distill::distill_article:
+#    includes:
+#      after_body: _includes/tabset-dropdown.html
