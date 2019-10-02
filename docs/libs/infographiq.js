@@ -61,7 +61,7 @@ function link_svg(svg, csv, debug = false, hover_color = 'yellow', width = '100%
 
       // iterate through rows of csv
       data.forEach(function(d) {
-        d.id = d.id.trim()
+        d.id = d.id.trim();
 
         if (debug){
           console.log('forEach d.id: ' + d.id);
@@ -133,11 +133,11 @@ function link_svg(svg, csv, debug = false, hover_color = 'yellow', width = '100%
           console.log('before .on(): ' + d.id);
         }
 
-        element = h.select('#' + d.id)
-        if (element._groups == undefined || element._groups.length == 0){
-            console.log('ERR: could not get svg element "' + d.id + '"')
-        } else if ( element._groups.length > 1 ) {
-            console.log('ERR: got > 1 svg element for "' + d.id + '"')
+        element = h.select('#' + d.id);
+        if ( element.empty() ){
+            console.log('ERR: could not get svg element "' + d.id + '"');
+        } else if ( element.size() > 1 ) {
+            console.log('ERR: got > 1 svg element for "' + d.id + '"');
         }
         element.on('click', handleClick)
           .on('mouseover', handleMouseOver)
