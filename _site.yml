@@ -1,11 +1,11 @@
 name: "FK IEA"
 title: "FK IEA"
 output_dir: "docs"
+svg_csv: "svg/svg_links.csv"
 navbar:
+  title: "FK IEA"
+  icon: fa-info
   left:
-    - text: " FK IEA"
-      icon: fa-home
-      href: index.html
     - text: "Climate"
       icon: fa-bolt
       menu:
@@ -32,31 +32,28 @@ navbar:
           href: p_landuse.html      
         - text: "Wastewater"
           href: p_wastewater.html      
-    - text: "Nature"
+    - text: "Biodiversity"
       icon: fa-leaf
       menu:
-        - text: "Nature"
-          href: nature.html
+        - text: "Biodiversity"
+          href: Biodiversity.html
         - text: "---------"
         - text: "Protected Areas"
-          href: n_mpa.html      
+          href: b_mpa.html      
         - text: "Habitats"
-          href: n_habitats.html      
+          href: b_habitats.html      
         - text: "Species"
-          href: n_species.html      
+          href: b_species.html      
   #right:
   #  - text: "About"
   #    href: about.html
 output:
-  #distill::distill_article:
-  html_document:
-    theme: darkly # https://bootswatch.com
-    highlight: textmate
-    toc: true
-    toc_depth: 3
-    toc_float: true
-
-#output:
 #  distill::distill_article:
 #    includes:
 #      after_body: _includes/tabset-dropdown.html
+  html_document:
+    theme: lumen # https://bootswatch.com
+    highlight: textmate
+    self_contained: no
+    css: libs/styles.css
+    mathjax: null
