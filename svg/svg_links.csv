@@ -3,10 +3,10 @@ fl-keys.svg,people,People,people.html,T
 fl-keys.svg,externalities,Climate,climate.html,T
 fl-keys.svg,marine_life,Biodiversity,biodiversity.html,T
 fl-keys.svg,info,Additional Info,modals/info.html,
-climate.svg, acidification, Ocean Acidification,modals/acidification.html,
-climate.svg, sea_level, Sea Level,modals/sea_level.html,
-climate.svg, storms, Storms,modals/storms.html,
-climate.svg, temperature, Temperature,modals/temperature.html,
+climate.svg,acidification,Ocean Acidification,modals/acidification.html,
+climate.svg,sea_level,Sea Level,modals/sea_level.html,
+climate.svg,storms,Storms,modals/storms.html,
+climate.svg,temperature,Temperature,modals/temperature.html,
 people.svg,fishing,Fishing,modals/fishing.html,
 people.svg,land_use,Land Use,modals/land_use.html,
 people.svg,wastewater,Wastewater,modals/wastewater.html,

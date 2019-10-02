@@ -3,15 +3,14 @@ title: "Climate"
 params:
   svg: "svg/climate.svg"
 ---
-<!--
+
 This is a placeholder for an infographic page.
 The infographic here will have clickable elements to the following pages:
  
-- [Temperature](/fk-iea/modals/externalities/temperature)
-- [Storms](/fk-iea/modals/externalities/storms)
-- [Sea Level](/fk-iea/modals/externalities/sea_level)
-- [Acidification](/fk-iea/modals/externalities/acidification)
--->
+- [Temperature](./modals/temperature.html)
+- [Storms](./modals/storms.html)
+- [Sea Level](./modals/sea_level.html)
+- [Acidification](./modals/acidification.html)
 
 ```{r svg, child = '_svg-html_child.Rmd'}
 ```
