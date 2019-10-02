@@ -36,7 +36,7 @@ navbar:
       icon: fa-leaf
       menu:
         - text: "Biodiversity"
-          href: Biodiversity.html
+          href: biodiversity.html
         - text: "---------"
         - text: "Protected Areas"
           href: b_mpa.html      
